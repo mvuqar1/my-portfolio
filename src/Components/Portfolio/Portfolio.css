@@ -41,7 +41,7 @@
 }
 .btn{
     background-color: rgb(66, 66, 248);
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     padding: 0.5rem;
     margin: 0.3rem;
     border-radius: 5px;
@@ -65,11 +65,21 @@
 @media screen and (max-width: 738px) {
     .portfolio-item{
         width: 30rem;
-        height: 22rem;
+        height: 23rem;
+        font-size: 1.8rem;
     }
     .portfoli-whatToDo {
-        margin: auto;
+        /* margin: auto; */
         font-size: 1.2rem;
-        line-height: 1.2rem;
+        line-height: 1.3rem;
     }
+    .portfolio-routers{
+        margin: 1rem;
+    }
+}
+@media screen and (max-width: 498px){
+    .portfolio-item{
+        font-size: 1.6rem;
+    }
+
 }

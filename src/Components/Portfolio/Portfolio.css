@@ -1,0 +1,60 @@
+.containet-portfolio {
+    background-image: url(./img/fon2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100vw;
+    left: calc(-50vw + 50%);
+}
+
+.portfolio-title h2 {
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    letter-spacing: 2rem;
+    font-style: oblique;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 8rem;
+    color: rgb(255, 253, 253);
+}
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-item {
+    border-radius:5px;
+    text-align: center;
+    font-size: 2rem;
+    /* background-color: rgba(255, 255, 255, 0.842); */
+    background-color: white;
+    width: 40rem;
+    height: 32rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+
+}
+
+
+.portfoli-whatToDo {
+    margin: auto;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+
+@media screen and (max-width: 738px) {
+    .portfolio-item{
+        width: 30rem;
+        height: 22rem;
+    }
+    .portfoli-whatToDo {
+        margin: auto;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+}

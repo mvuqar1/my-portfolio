@@ -1,0 +1,30 @@
+.nav-left img {
+    width: 9rem;
+    cursor: pointer;
+}
+
+.nav-container {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-right ul{
+    gap: 2.6rem;
+}
+.nav-right li{
+    text-transform: uppercase;
+    font-size: 2.6rem;
+}
+
+@media screen and (max-width: 498px) {
+    .d-flex{
+        display: block;
+    }
+    
+}

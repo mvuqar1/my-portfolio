@@ -18,8 +18,8 @@ export default function Portfolio() {
                     </p>
                 </div>
                 <div className="portfolio-routers">
-                    <div className="portfolio-netlify"><p><a href='https://first-task-mvuqar1.netlify.app/'>View Project</a></p></div>
-                    <div className="portfolio-github"><p><a href='https://github.com/mvuqar1/FirstTask'>View Github</a></p></div>
+                    <div className="portfolio-netlify btn"><p><a href='https://first-task-mvuqar1.netlify.app/'>View Project</a></p></div>
+                    <div className="portfolio-github btn"><p><a href='https://github.com/mvuqar1/FirstTask'>View Github</a></p></div>
                 </div>
             </div>
             <div className="portfolio-item">
@@ -32,8 +32,8 @@ export default function Portfolio() {
                     </p>
                 </div>
                 <div className="portfolio-routers">
-                    <div className="portfolio-netlify"><p><a href='https://currency-converter-mvuqar1.netlify.app/'>View Project</a></p></div>
-                    <div className="portfolio-github"><p><a href='https://github.com/mvuqar1/currencyConverter'>View Github</a></p></div>
+                    <div className="portfolio-netlify btn"><p><a href='https://currency-converter-mvuqar1.netlify.app/'>View Project</a></p></div>
+                    <div className="portfolio-github btn"><p><a href='https://github.com/mvuqar1/currencyConverter'>View Github</a></p></div>
                 </div>
             </div>
             <div className="portfolio-item">
@@ -46,8 +46,8 @@ export default function Portfolio() {
                     </p>
                 </div>
                 <div className="portfolio-routers">
-                    <div className="portfolio-netlify"><p><a href='https://sign-up-form-mvuqar1.netlify.app/'>View Project</a></p></div>
-                    <div className="portfolio-github"><p><a href='https://github.com/mvuqar1/signUpForm'>View Github</a></p></div>
+                    <div className="portfolio-netlify btn"><p><a href='https://sign-up-form-mvuqar1.netlify.app/'>View Project</a></p></div>
+                    <div className="portfolio-github btn"><p><a href='https://github.com/mvuqar1/signUpForm'>View Github</a></p></div>
                 </div>
             </div>
             <div className="portfolio-item">
@@ -60,8 +60,8 @@ export default function Portfolio() {
                     </p>
                 </div>
                 <div className="portfolio-routers">
-                    <div className="portfolio-netlify"><p><a href='https://to-do-list1-mvuqar1.netlify.app/'>View Project</a></p></div>
-                    <div className="portfolio-github"><p><a href='https://github.com/mvuqar1/toDoList'>View Github</a></p></div>
+                    <div className="portfolio-netlify btn"><p><a href='https://to-do-list1-mvuqar1.netlify.app/'>View Project</a></p></div>
+                    <div className="portfolio-github btn"><p><a href='https://github.com/mvuqar1/toDoList'>View Github</a></p></div>
                 </div>
             </div>
             <div className="portfolio-item">
@@ -74,8 +74,8 @@ export default function Portfolio() {
                     </p>
                 </div>
                 <div className="portfolio-routers">
-                    <div className="portfolio-netlify"><p><a href='https://bright-nasturtium-a32602.netlify.app/'>View Project</a></p></div>
-                    <div className="portfolio-github"><p><a href='https://github.com/mvuqar1/nikeShoes'>View Github</a></p></div>
+                    <div className="portfolio-netlify btn"><p><a href='https://bright-nasturtium-a32602.netlify.app/'>View Project</a></p></div>
+                    <div className="portfolio-github btn"><p><a href='https://github.com/mvuqar1/nikeShoes'>View Github</a></p></div>
                 </div>
             </div>
             <div className="portfolio-item">
@@ -88,8 +88,8 @@ export default function Portfolio() {
                     </p>
                 </div>
                 <div className="portfolio-routers">
-                    <div className="portfolio-netlify"><p><a href='https://api-firibase-mvuqar1.netlify.app/'>View Project</a></p></div>
-                    <div className="portfolio-github"><p><a href='https://github.com/mvuqar1/apiFirebase'>View Github</a></p></div>
+                    <div className="portfolio-netlify btn"><p><a href='https://api-firibase-mvuqar1.netlify.app/'>View Project</a></p></div>
+                    <div className="portfolio-github btn"><p><a href='https://github.com/mvuqar1/apiFirebase'>View Github</a></p></div>
                 </div>
             </div>
 

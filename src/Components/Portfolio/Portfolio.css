@@ -39,7 +39,22 @@
     margin: 2rem;
 
 }
-
+.btn{
+    background-color: rgb(66, 66, 248);
+    font-size: 1.8rem;
+    padding: 0.5rem;
+    margin: 0.3rem;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: transparent 0.5;
+}
+.portfolio-routers a{
+    color: white;
+}
+.portfolio-routers a:hover{
+    color: rgb(0, 0, 0);
+}
 
 .portfoli-whatToDo {
     margin: auto;

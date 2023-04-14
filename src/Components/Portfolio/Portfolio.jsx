@@ -4,7 +4,7 @@ import "./Portfolio.css"
 export default function Portfolio() {
   return (
     <>
-    <div className="containet-portfolio">
+    <div id='portfolio' className="containet-portfolio">
         <div className="portfolio-title">
         <h2>portfolio</h2>
         <div className="portfolio-items">

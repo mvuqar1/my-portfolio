@@ -15,11 +15,11 @@ export default function Navbar() {
               <p>resume</p>
               </li>
               <li>
-                <p onClick={() => window.scroll(0, 493)}>portfolio</p>
+                <p onClick={() => document.getElementById("portfolio").scrollIntoView()}>portfolio</p>
               </li>
              
               <li>
-                <p onClick={() => window.scroll(0, 800)}>contact</p>
+                <p onClick={() => document.getElementById("contacts").scrollIntoView()}>contact</p>
               </li>
             </ul>
 

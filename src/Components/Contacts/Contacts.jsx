@@ -4,7 +4,7 @@ import "./Contacts.css"
 function Contacts() {
   return (
     <footer>
-      <div className="contact-info">
+      <div id='contacts' className="contact-info">
         <h3>Contact Information</h3>
         <p>Address: <a href="https://en.wikipedia.org/wiki/Baku">Azerbaijan Baku</a></p>
         <p><a href='tel:+994518305100'>Telephone: +994 (51) 830-51-00</a></p>

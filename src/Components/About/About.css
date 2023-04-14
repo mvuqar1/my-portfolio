@@ -97,3 +97,9 @@
   } 
 
 }
+
+@media  screen and (max-width:319px){
+  .about-left img {
+    width: 17.5rem;
+  }
+}

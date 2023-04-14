@@ -14,7 +14,7 @@ export default function Portfolio() {
                 </div>
                 <div className="portfoli-whatToDo">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quod veniam consectetur reprehenderit ab animi iste voluptatibus accusamus ex doloribus? Ratione repellat eius nesciunt temporibus dolor, delectus unde quia, quo quos assumenda necessitatibus eligendi tempora aperiam.
+                As part of the project, I used HTML and CSS, worked with the Flexbox technology, created a responsive design that allows the website to display correctly on different devices, and moved tables to ensure optimal display when the screen size changes.
                     </p>
                 </div>
                 <div className="portfolio-routers">
@@ -28,7 +28,7 @@ export default function Portfolio() {
                 </div>
                 <div className="portfoli-whatToDo">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quod veniam consectetur reprehenderit ab animi iste voluptatibus accusamus ex doloribus? Ratione repellat eius nesciunt temporibus dolor, delectus unde quia, quo quos assumenda necessitatibus eligendi tempora aperiam.
+                The main idea behind this project is to showcase best practices for working with APIs, specifically working with Get requests. The converter is both functional and dynamic, allowing for seamless use.
                     </p>
                 </div>
                 <div className="portfolio-routers">
@@ -42,7 +42,7 @@ export default function Portfolio() {
                 </div>
                 <div className="portfoli-whatToDo">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quod veniam consectetur reprehenderit ab animi iste voluptatibus accusamus ex doloribus? Ratione repellat eius nesciunt temporibus dolor, delectus unde quia, quo quos assumenda necessitatibus eligendi tempora aperiam.
+                This project is a visual solution, where the main focus was on working with toggle, addEventListener, and querySelector to create interactivity on the page.
                     </p>
                 </div>
                 <div className="portfolio-routers">
@@ -56,7 +56,7 @@ export default function Portfolio() {
                 </div>
                 <div className="portfoli-whatToDo">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quod veniam consectetur reprehenderit ab animi iste voluptatibus accusamus ex doloribus? Ratione repellat eius nesciunt temporibus dolor, delectus unde quia, quo quos assumenda necessitatibus eligendi tempora aperiam.
+                This project is a 'To-Do List' application that utilizes querySelector, setDragDrop, createElement, appendChild, and sorting technologies to add, delete, and move items within the list, while also allowing for data to be written and stored in local storage.
                     </p>
                 </div>
                 <div className="portfolio-routers">
@@ -70,7 +70,7 @@ export default function Portfolio() {
                 </div>
                 <div className="portfoli-whatToDo">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quod veniam consectetur reprehenderit ab animi iste voluptatibus accusamus ex doloribus? Ratione repellat eius nesciunt temporibus dolor, delectus unde quia, quo quos assumenda necessitatibus eligendi tempora aperiam.
+                The page contains HTML, CSS, and JavaScript files that are responsible for the functionality of selecting the color of sneakers. Visually, the page is designed in a modern style, using the Quicksand font and icons from the Font Awesome library.
                     </p>
                 </div>
                 <div className="portfolio-routers">
@@ -80,11 +80,11 @@ export default function Portfolio() {
             </div>
             <div className="portfolio-item">
                 <div className="portfolio-sayt">
-                    <h4>Api Firebase Post Put Get Delete</h4>
+                    <h4>Firebase APİ</h4>
                 </div>
                 <div className="portfoli-whatToDo">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quod veniam consectetur reprehenderit ab animi iste voluptatibus accusamus ex doloribus? Ratione repellat eius nesciunt temporibus dolor, delectus unde quia, quo quos assumenda necessitatibus eligendi tempora aperiam.
+                App for form & Firebase RTDB w/Redux store. Functions: getFormInputs, deleteFormInput, addFormInputs, EditFormUser, GetSingleUser query DB & dispatch actions to update app state.
                     </p>
                 </div>
                 <div className="portfolio-routers">

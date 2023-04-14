@@ -12,14 +12,14 @@ export default function Navbar() {
         <div className="nav-right">
             <ul className='d-flex'>
               <li>
-                <a href='#resume'>resume</a>
+              <a >resume</a>
               </li>
               <li>
-                <a href='#portfolio'>portfolio</a>
+                <a a onClick={() => window.scroll(0, 493)}>portfolio</a>
               </li>
              
               <li>
-                <a href='#contact'>contact</a>
+                <a onClick={() => window.scroll(0, 800)}>contact</a>
               </li>
             </ul>
 

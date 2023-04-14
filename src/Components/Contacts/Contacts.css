@@ -1,0 +1,21 @@
+footer {
+    background-color: #222121;
+    padding: 20px;
+    position: relative;
+    width: 100vw;
+    left: calc(-50vw + 50%);
+    color: white;
+    font-size: 1.6rem;
+  }
+  footer a{
+    color: white;
+  }
+  
+  .contact-info {
+    /* max-width: 600px; */
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  
+  

@@ -1,8 +1,9 @@
 .containet-portfolio {
-    background-image: url(./img/fon2.png);
+    /* background-image: url(./img/fon2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    background-color: #222121;
     position: relative;
     width: 100vw;
     left: calc(-50vw + 50%);
@@ -25,43 +26,39 @@
 }
 
 .portfolio-item {
+    background-color: #443232;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
     position: relative;
-
+    color: white;
+    
     width: 40rem;
     height: 32rem;
-
+    
     border-radius:5px;
     font-size: 2rem;
-    background-color: white;
-    padding: 2rem;
+    /* background-color: white; */
+    padding: 1rem 2rem 2rem;
     margin: 2rem;
-
+    
 }
 
-/* .portfoli-whatToDo {
-    flex-grow: 1;
-    height: 100%;
-  } */
+.portfolio-item:hover{
+    background-color: #1da1f2;
+}
 
-.btn{
-    background-color: rgb(66, 66, 248);
-    font-size: 1.7rem;
-    padding: 0.5rem;
-    margin: 0.3rem;
-    border-radius: 5px;
+.portfolio-sayt{
+    transform: translateX(16rem);
+    transition: transform 2.5s;
+    font-size: 3rem;
 }
-.btn:hover{
-    background-color: transparent 0.5;
-}
-.portfolio-routers a{
-    color: white;
-}
-.portfolio-routers a:hover{
-    color: rgb(0, 0, 0);
+
+.portfolio-item:hover .portfolio-sayt{
+    transform: translateX(-5%);
+    color: #e01e1e;
 }
 
 .portfoli-whatToDo {
@@ -70,11 +67,32 @@
     line-height: 1.6rem;
 }
 
+.portfolio-routers a{
+    color: white;
+}
+
+.portfolio-routers a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.btn{
+    background-color: rgb(66, 66, 248);
+    font-size: 1.7rem;
+    padding: 0.5rem;
+    margin: 0.3rem;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: transparent 0.5;
+}
+
 @media screen and (max-width: 738px) {
     .portfolio-item{
         width: 30rem;
         height: 23rem;
         font-size: 1.8rem;
+        padding: 0.1rem 1rem 1rem;
     }
     .portfoli-whatToDo {
         /* margin: auto; */
@@ -88,6 +106,7 @@
 @media screen and (max-width: 498px){
     .portfolio-item{
         font-size: 1.6rem;
+        padding: 0.1rem .8rem .8rem;
     }
 
 }

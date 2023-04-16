@@ -37,7 +37,7 @@ const initialState = [
     {
         id: 3,
         title: 'Sign Up',
-        description: 'This project is a visual solution, where the main focus was on working with toggle, addEventListener, and querySelector to create interactivity on the page.',
+        description: 'useFormik and Yup are React libraries for form handling and validation. useFormik provides functions and states for managing forms, such as values, handlers, and submission. Yup validates form values against defined rules.',
         liveLink: 'https://sign-up-form-mvuqar1.netlify.app/',
         gitLink: 'https://github.com/mvuqar1/signUpForm'
     },

@@ -47,6 +47,13 @@ const initialState=[
             description: 'App for form & Firebase RTDB w/Redux store. Functions: getFormInputs, deleteFormInput, addFormInputs, EditFormUser, GetSingleUser query DB & dispatch actions to update app state.',
             liveLink: 'https://api-firibase-mvuqar1.netlify.app/',
             gitLink: 'https://github.com/mvuqar1/apiFirebase'
+        },
+        {
+            id: 7,
+            title: 'Products-Search',
+            description: 'In my React project, I use API requests, useState, useEffect, useLocation, useNavigate functions, and filters to create a user interface and work with data. This allows me to search for desired products and simplify the development process.',
+            liveLink: 'https://products-search-mvuqar1.netlify.app/',
+            gitLink: 'hhttps://github.com/mvuqar1/product-search.git'
         }
  
 ]

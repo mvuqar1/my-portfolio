@@ -21,6 +21,13 @@ const initialState = [
         gitLink: 'https://github.com/mvuqar1/apiFirebase'
     },
     {
+        id: 8,
+        title: 'Kino Search',
+        description: 'The created website utilizes the React library and class components to build a dynamic user interface. By integrating API requests, the site obtains real-time information, allowing it to provide users with the most useful information.',
+        liveLink: 'https://kino-sayt-mvuqar1.netlify.app/',
+        gitLink: 'https://github.com/mvuqar1/kino-sayt'
+    },
+    {
         id: 4,
         title: 'To Do List',
         description: 'This project is a "To-Do List" application that utilizes querySelector, setDragDrop, createElement, appendChild, and sorting technologies to add, delete, and move items within the list, while also allowing for data to be written and stored in local storage.',

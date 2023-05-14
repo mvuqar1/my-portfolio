@@ -7,6 +7,13 @@ export const PortfolioContext = createContext()
 const initialState = [
     
     {
+        id: 8,
+        title: 'Coins Backend Frontend',
+        description: 'My project combines Mysql (Clever Cloud) and Firebase for storing photos. The backend is implemented using Node.js Express (Vercel), while the frontend is based on React. useState, useContext, and useSearchParams are used for handling API requests.',
+        liveLink: 'https://main--coins-express-mysql-admin-panel.netlify.app/',
+        gitLink: 'https://github.com/mvuqar1/coins-express-mysql-adminPanel'
+    },
+    {
         id: 7,
         title: 'Products-Search',
         description: 'In my React project, I use API requests, useState, useEffect, useLocation, useNavigate functions, and filters to create a user interface and work with data. This allows me to search for desired products and simplify the development process.',

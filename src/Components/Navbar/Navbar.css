@@ -1,6 +1,7 @@
 .nav-left img {
     width: 9rem;
     cursor: pointer;
+    animation: rotate360 60s linear infinite;
 }
 
 .nav-container {
@@ -29,3 +30,13 @@
     }
     
 }
+
+@keyframes rotate360 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

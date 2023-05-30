@@ -1,5 +1,6 @@
 .about-container {
   display: flex;
+  padding-top: 10rem;
 }
 
 .about-left {

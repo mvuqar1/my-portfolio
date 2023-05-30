@@ -3,6 +3,12 @@ import logo from "./img/logo.png"
 import "./Navbar.css"
 
 export default function Navbar() {
+  window.onscroll=()=>{
+    let navbar = document.querySelector(".nav-container");
+    navbar.classList.toggle("toggle-scroll",window.scrollY>100)
+}
+  
+
   return (
     <>
     <div className="nav-container">
@@ -12,7 +18,7 @@ export default function Navbar() {
         <div className="nav-right">
             <ul className='d-flex'>
               <li>
-              <p>resume</p>
+              <p onClick={() => document.getElementById("about").scrollIntoView()}>resume</p>
               </li>
               <li>
                 <p onClick={() => document.getElementById("portfolio").scrollIntoView()}>portfolio</p>

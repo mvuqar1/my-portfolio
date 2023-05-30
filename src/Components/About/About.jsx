@@ -4,7 +4,7 @@ import "./About.css"
 
 export default function About() {
     return (
-        <div className="about-container">
+        <div id='about' className="about-container">
             <div className="about-left">
                 <img src={me} alt='Vuqar' />
             </div>

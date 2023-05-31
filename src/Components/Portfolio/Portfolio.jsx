@@ -20,8 +20,8 @@ export default function Portfolio() {
                                 <p>{item.description}</p>
                             </div>
                             <div className="portfolio-routers">
-                                <div className="portfolio-netlify btn"><p><a href={item.liveLink}>View Project</a></p></div>
-                                <div className="portfolio-github btn"><p><a href={item.gitLink}>View Github</a></p></div>
+                                <div className="portfolio-netlify btn"><p><a target='_blank' rel='noopener noreferrer' href={item.liveLink}>View Project</a></p></div>
+                                <div className="portfolio-github btn"><p><a target='_blank' rel='noopener noreferrer' href={item.gitLink}>View Github</a></p></div>
                             </div>
                         </div>
                     ))}

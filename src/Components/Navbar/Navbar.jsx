@@ -20,7 +20,7 @@ export default function Navbar() {
     const contactsSection = document.getElementById("contacts");
   
     const aboutOffset = aboutSection.getBoundingClientRect().top + window.scrollY - 4 * 16;
-    const portfolioOffset = portfolioSection.getBoundingClientRect().top + window.scrollY - 1 * 16;
+    const portfolioOffset = portfolioSection.getBoundingClientRect().top + window.scrollY - 4 * 16;
     const contactsOffset = contactsSection.getBoundingClientRect().top + window.scrollY - 44 * 16;
   
     if (scrollPosition >= aboutOffset && scrollPosition < portfolioOffset) {

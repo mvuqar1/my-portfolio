@@ -14,15 +14,15 @@ export default function Navbar() {
 
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
-  
+
     const aboutSection = document.getElementById("about");
     const portfolioSection = document.getElementById("portfolio");
     const contactsSection = document.getElementById("contacts");
-  
+
     const aboutOffset = aboutSection.getBoundingClientRect().top + window.scrollY - 4 * 16;
-    const portfolioOffset = portfolioSection.getBoundingClientRect().top + window.scrollY - 4 * 16;
+    const portfolioOffset = portfolioSection.getBoundingClientRect().top + window.scrollY - 5 * 16;
     const contactsOffset = contactsSection.getBoundingClientRect().top + window.scrollY - 44 * 16;
-  
+
     if (scrollPosition >= aboutOffset && scrollPosition < portfolioOffset) {
       setActiveLink("about");
     } else if (scrollPosition >= portfolioOffset && scrollPosition < contactsOffset) {
@@ -33,8 +33,20 @@ export default function Navbar() {
       setActiveLink("");
     }
   };
+
   const handleNavLinkClick = (id) => {
-    document.getElementById(id).scrollIntoView();
+    if (id === "portfolio") {
+      const targetElement = document.getElementById(id);
+      const offset = targetElement.offsetTop - 4 * 16;
+
+      window.scrollTo({
+        top: offset,
+        behavior: "smooth"
+      });
+    } else {
+      document.getElementById(id).scrollIntoView();
+    }
+
     setActiveLink(id);
   }
 

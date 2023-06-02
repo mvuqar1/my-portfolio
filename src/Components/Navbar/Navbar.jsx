@@ -3,6 +3,7 @@ import logo from "./img/logo.png";
 import "./Navbar.css";
 
 export default function Navbar() {
+  const [activeToggle, setToggle] = useState(false);
   const [activeLink, setActiveLink] = useState("");
 
   useEffect(() => {
@@ -23,14 +24,20 @@ export default function Navbar() {
     const portfolioOffset = portfolioSection.getBoundingClientRect().top + window.scrollY - 5 * 16;
     const contactsOffset = contactsSection.getBoundingClientRect().top + window.scrollY - 44 * 16;
 
-    if (scrollPosition >= aboutOffset && scrollPosition < portfolioOffset) {
+console.log(scrollPosition)
+    if(scrollPosition===0){
+      setToggle(false);
+    } else if (scrollPosition >= aboutOffset && scrollPosition < portfolioOffset) {
       setActiveLink("about");
+      setToggle(true)
     } else if (scrollPosition >= portfolioOffset && scrollPosition < contactsOffset) {
       setActiveLink("portfolio");
+      setToggle(true)
     } else if (scrollPosition >= contactsOffset) {
       setActiveLink("contacts");
+      setToggle(true)
     } else {
-      setActiveLink("");
+      setActiveLink();
     }
   };
 
@@ -52,7 +59,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className={`nav-container ${activeLink ? 'toggle-scroll' : ''}`}>
+      <div className={`nav-container ${activeToggle ? 'toggle-scroll' : ''}`}>
         <div className="nav-left">
           <img src={logo} alt="" />
         </div>

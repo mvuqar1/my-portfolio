@@ -6,7 +6,7 @@ import{motion} from "framer-motion"
 
 const textAnimation={
     hidden:{
-        y:100,
+        y:-100,
         opacity:0
     },
     visible:custom=>({
@@ -36,7 +36,7 @@ export default function Portfolio() {
                     {initialState.map((item,index) => (
                         <motion.div
                         variants={textAnimation}
-                        custom={index + 1} 
+                        custom={index} 
 
                         key={item.id} 
                         className="portfolio-item">

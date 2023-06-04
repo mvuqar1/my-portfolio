@@ -10,13 +10,6 @@
     left: 0;
     padding: 1rem 7.5rem;
   }
-  /* .nav-left {
-    margin-right: auto;
-  }
-  
-  .nav-right {
-    margin-left: auto;
-  } */
   
   .toggle-scroll {
     background-color: white;
@@ -24,7 +17,6 @@
     /* color: white; */
   }
    
-  
   .nav-left img {
     width: 5rem;
     cursor: pointer;
@@ -82,12 +74,12 @@
     
 }
 
-@keyframes rotate360 {
+/* @keyframes rotate360 {
     0% {
       transform: rotate(0deg);
     }
     100% {
       transform: rotate(360deg);
     }
-  }
+  } */
   

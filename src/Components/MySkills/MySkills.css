@@ -1,11 +1,11 @@
 .container-my-skills{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     height: 92vh;
 }
 .container-my-skills h1{
     font-size: 5rem;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
 }

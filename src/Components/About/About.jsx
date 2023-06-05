@@ -11,7 +11,8 @@ const textAnimation={
     visible:custom=>({
         x:0,
         opacity:1,
-        transition:{delay:custom * 0.2}
+        transition:{delay:custom * 0.2},
+        // transition:{duration:custom*0.2}
 
     })
 }
@@ -21,6 +22,7 @@ export default function About() {
         <motion.div 
         initial="hidden"
         whileInView="visible"
+        viewport={{amount:0.1}}
         id='about' 
         className="about-container">
             <div className="about-left">

@@ -1,0 +1,9 @@
+.container-my-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+.container-my-skills h1{
+    font-size: 5rem;
+}

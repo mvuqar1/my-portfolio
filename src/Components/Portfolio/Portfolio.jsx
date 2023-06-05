@@ -6,7 +6,7 @@ import{motion} from "framer-motion"
 
 const textAnimation={
     hidden:{
-        y:-100,
+        y:-60,
         opacity:0
     },
     visible:custom=>({

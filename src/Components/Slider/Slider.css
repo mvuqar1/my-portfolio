@@ -1,0 +1,19 @@
+.slider-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.slider-container h1{
+    font-size: 4rem;
+}
+.slider-container button img{
+    width: 10rem;
+    transition: 0.5s;
+}
+.slider-container button img:hover{
+    scale: 1.2;
+}

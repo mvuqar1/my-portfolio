@@ -1,0 +1,20 @@
+.slider-item-line{
+  display: flex;
+  height: 35rem;
+  width: 35rem;
+  margin: 2rem;
+  /* border: 10px solid black; */
+  overflow: hidden;
+  
+}
+.slider-item-item{
+  position: relative;
+  left: 0%;
+  /* background-color: blueviolet; */
+  }
+  
+  .slider-item-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+  

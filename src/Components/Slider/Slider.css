@@ -17,3 +17,16 @@
 .slider-container button img:hover{
     scale: 1.2;
 }
+
+@media screen and (max-width: 738px){
+    .slider-container button img{
+        width: 8rem;
+    }
+  }
+
+  @media screen and (max-width: 498px){
+    .slider-container button img{
+        width: 6rem;
+    }
+
+}

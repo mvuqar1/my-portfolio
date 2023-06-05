@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 90vh;
+    height: 92vh;
 }
 .container-my-skills h1{
     font-size: 5rem;
+    margin-top: 5rem;
 }

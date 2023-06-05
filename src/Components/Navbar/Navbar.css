@@ -61,6 +61,16 @@
     color: yellow;
   }
 
+  @media screen and (max-width: 738px){
+ 
+    .nav-container{
+      padding: 1rem 3.5rem;
+    }
+    .nav-right li{
+      font-size: 1.7rem;
+    }
+  }
+
 @media screen and (max-width: 498px) {
     .d-flex{
         display: block;

@@ -12,13 +12,14 @@ const textAnimation = {
     y: -100,
     opacity: 0
   },
-  visible: {
+  visible: custom => ({
     y: 0,
     opacity: 1,
     transition: { delay: 0.1 }
 
-  }
+  })
 }
+
 
 export default function Slider() {
 

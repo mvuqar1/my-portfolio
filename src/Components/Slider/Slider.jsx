@@ -9,13 +9,13 @@ import { motion } from "framer-motion"
 
 const textAnimation = {
   hidden: {
-    y: -100,
+    y: 100,
     opacity: 0
   },
   visible: custom => ({
     y: 0,
     opacity: 1,
-    transition: { delay: 0.1 }
+    transition: { delay: 0.5 }
 
   })
 }
@@ -48,7 +48,7 @@ export default function Slider() {
     viewport={{ amount: 0.1 }}
     className='slider-container'>
       <motion.button variants={textAnimation} custom={1} onClick={(e) => leftButton()}><img src={left} alt="left" /></motion.button>
-      <motion.div variants={textAnimation} custom={2} images={imgData} slide={slide}>
+      <motion.div variants={textAnimation} custom={3} images={imgData} slide={slide}>
   <SliderItem images={imgData} slide={slide} />
 </motion.div>
       <motion.button variants={textAnimation} custom={1} onClick={(e) => rightButton()}><img src={right} alt="right" /></motion.button>

@@ -5,13 +5,13 @@ import { motion } from "framer-motion"
 
 const textAnimation = {
   hidden: {
-    y: -100,
+    y: 100,
     opacity: 0
   },
   visible: custom => ({
     y: 0,
     opacity: 1,
-    transition: { delay: 0.1 }
+    transition: { delay: 0.5 }
 
   })
 }

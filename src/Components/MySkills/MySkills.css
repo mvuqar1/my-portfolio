@@ -1,7 +1,7 @@
 .container-my-skills{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center ;
     align-items: center;
     height: 92vh;
 }

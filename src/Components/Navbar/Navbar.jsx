@@ -50,6 +50,7 @@ export default function Navbar() {
   };
 
   const handleNavLinkClick = (id) => {
+    SetMenuBar(!menuBar)
     if (id === "skills") {
       const targetElement = document.getElementById(id);
       const offset = targetElement.offsetTop - 4 * 16;

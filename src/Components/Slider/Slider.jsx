@@ -46,9 +46,11 @@ export default function Slider() {
     whileInView="visible"
     viewport={{ amount: 0.1 }}
     className='slider-container'>
-      <button variants={textAnimation} custom={2} onClick={(e) => leftButton()}><img src={left} alt="left" /></button>
-      <SliderItem variants={textAnimation} custom={1} images={imgData} slide={slide} />
-      <button variants={textAnimation} custom={2} onClick={(e) => rightButton()}><img src={right} alt="right" /></button>
+      <motion.button variants={textAnimation} custom={1} onClick={(e) => leftButton()}><img src={left} alt="left" /></motion.button>
+      <motion.div variants={textAnimation} custom={2} images={imgData} slide={slide}>
+  <SliderItem images={imgData} slide={slide} />
+</motion.div>
+      <motion.button variants={textAnimation} custom={1} onClick={(e) => rightButton()}><img src={right} alt="right" /></motion.button>
 
     </motion.div>
   )

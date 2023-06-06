@@ -61,11 +61,11 @@
   }
   .nav-close img{
     width: 5rem;
-    visibility: hidden;
+    display: none;
   }
   .nav-menu img{
     width: 5rem;
-    visibility: hidden;
+    display: none;
   }
   
 
@@ -94,10 +94,10 @@
       padding: 0.8rem 4rem;
     }
     .nav-menu img{
-      visibility: visible;
+      display: block;
     }
     .nav-close img{
-      visibility: visible;
+      display: block;
       position: absolute;
       right:3rem;
       top: 0.5rem;

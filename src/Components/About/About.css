@@ -82,6 +82,7 @@
 @media screen and (max-width: 498px) {
   .about-container {
     display: block;
+    height: auto;
   }
 
   .about-left {

@@ -11,7 +11,7 @@
     font-size: 4rem;
 }
 .slider-container button img{
-    width: 10rem;
+    width: 4rem;
     transition: 0.5s;
 }
 .slider-container button img:hover{
@@ -20,13 +20,13 @@
 
 @media screen and (max-width: 738px){
     .slider-container button img{
-        width: 8rem;
+        width: 3rem;
     }
   }
 
   @media screen and (max-width: 498px){
     .slider-container button img{
-        width: 6rem;
+        width: 2rem;
     }
 
 }

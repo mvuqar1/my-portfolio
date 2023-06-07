@@ -8,7 +8,7 @@ import "./Navbar.css";
 export default function Navbar() {
   const [activeToggle, setToggle] = useState(false);
   const [activeLink, setActiveLink] = useState("");
-  const[menuBar,SetMenuBar]=useState(false)
+  const [menuBar, SetMenuBar] = useState(false)
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -119,8 +119,8 @@ export default function Navbar() {
             </ul>
             <div className="nav-close"><img src={close} alt="close" onClick={() => SetMenuBar(!menuBar)} />
             </div>
-            </div>
-            <div className="nav-menu"><img src={menu} alt="menu" onClick={() => SetMenuBar(!menuBar)} /></div>
+          </div>
+          <div className="nav-menu"><img src={menu} alt="menu" onClick={() => SetMenuBar(!menuBar)} /></div>
         </div>
       </div>
     </>

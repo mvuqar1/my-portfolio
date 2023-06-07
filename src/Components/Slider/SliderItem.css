@@ -18,23 +18,23 @@
   
   @media screen and (max-width: 738px){
     .slider-item-line{
-      height: 25rem;
-      width: 25rem;
+      height: 35rem;
+      width: 35rem;
 
     }
   }
   @media screen and (max-width: 498px){
     .slider-item-line{
-      height: 15rem;
-      width:15rem;
+      height: 25rem;
+      width:25rem;
 
     }
 
 }
 @media screen and (max-width: 340px){
   .slider-item-line{
-    height: 10rem;
-    width:10rem;
+    height: 16rem;
+    width:16rem;
 
   }
 }

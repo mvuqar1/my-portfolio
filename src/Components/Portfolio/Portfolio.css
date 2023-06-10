@@ -37,20 +37,21 @@
     
     width: 40rem;
     height: 32rem;
-    border: 1px solid rgba(172, 171, 171, 0.144);
+    box-shadow: 0px 5px 10px 0px rgba(17, 104, 185, 0.7);           
     
     border-radius:5px;
     font-size: 2rem;
     /* background-color: white; */
     padding: 1rem 2rem 2rem;
     margin: 2rem;
+    transition: all ease 0.3s;
     
 }
 
 .portfolio-item:hover {
     background: rgba(255, 255, 255, 0.973);
     color: black;
-    opacity: 1;
+    box-shadow: 5px 6px 20px 3px rgb(24, 150, 253);
 }
 
 .portfolio-item:hover h4 {

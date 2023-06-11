@@ -1,5 +1,6 @@
 import React from 'react'
-import me from "./img/me.png"
+// import me from "./img/me.png"
+import me2 from "./img/me111.png"
 import "./About.css"
 import{motion} from "framer-motion"
 
@@ -26,7 +27,7 @@ export default function About() {
         id='about' 
         className="about-container">
             <div className="about-left">
-                <motion.img variants={textAnimation} custom="3" src={me} alt='Vuqar' />
+                <motion.img variants={textAnimation} custom="3" src={me2} alt='Vuqar' />
             </div>
             <div className="about-right">
                 <div className="about-right-items">

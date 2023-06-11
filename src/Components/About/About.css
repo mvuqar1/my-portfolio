@@ -15,7 +15,7 @@
   width: 55%;
 }
 .about-left img {
-  width: 30rem;
+  width: 32rem;
 }
 
 
@@ -48,7 +48,7 @@
 
 
   .about-left img {
-    width: 25rem;
+    width: 27rem;
   }
   .about-right-items {
     font-size: 2.2rem;
@@ -63,7 +63,7 @@
 @media screen and (max-width: 638px) {
  
   .about-left img {
-    width: 22rem;
+    width: 23rem;
   }
   .about-right-items {
     font-size: 2rem;
@@ -105,7 +105,7 @@
 }
 
 @media  screen and (max-width:319px){
-  .about-left img {
+  /* .about-left img {
     width: 17.5rem;
-  }
+  } */
 }

@@ -91,6 +91,9 @@
     align-items: center;
     width: 100%;
   }
+  .about-left img {
+    width: 25rem;
+  }
   .about-right {
     display: flex;
     justify-content: center;

@@ -54,7 +54,7 @@
 .portfolio-item:hover {
     background: rgba(255, 255, 255, 0.973);
     color: black;
-    box-shadow: 100px 16px 10px 3px rgb(16, 16, 241);
+    box-shadow: 6px 6px 10px 2px rgb(16, 16, 241);
 }
 
 .portfolio-item:hover h4 {

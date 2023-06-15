@@ -43,27 +43,34 @@ const initialState = [
     },
     {
         id: 5,
+        title: 'Scroll Animation',
+        description: '"creative-scroll-animation" is a web application built with React for creating scroll animations. It utilizes testing libraries, GSAP for animations, and standard React tools. It provides scripts for development, building, testing, and project configuration. The ESLint configuration ensures code quality. Browserslist defines the supported browsers.',
+        liveLink: 'https://creative-scroll-animation.netlify.app/',
+        gitLink: 'https://github.com/mvuqar1/creative-scroll-animation'
+    },
+    {
+        id: 6,
         title: 'Firebase APİ',
         description: 'App for form & Firebase RTDB w/Redux store. Functions: getFormInputs, deleteFormInput, addFormInputs, EditFormUser, GetSingleUser query DB & dispatch actions to update app state.',
         liveLink: 'https://api-firibase-mvuqar1.netlify.app/',
         gitLink: 'https://github.com/mvuqar1/apiFirebase'
     },
     {
-        id: 6,
+        id: 7,
         title: 'Products-Search',
         description: 'In my React project, I use API requests, useState, useEffect, useLocation, useNavigate functions, and filters to create a user interface and work with data. This allows me to search for desired products and simplify the development process.',
         liveLink: 'https://products-search-mvuqar1.netlify.app/',
         gitLink: 'hhttps://github.com/mvuqar1/product-search.git'
     },
     {
-        id: 7,
+        id: 8,
         title: 'Kino Search',
         description: 'The created website utilizes the React library and class components to build a dynamic user interface. By integrating API requests, the site obtains real-time information, allowing it to provide users with the most useful information.',
         liveLink: 'https://kino-sayt-mvuqar1.netlify.app/',
         gitLink: 'https://github.com/mvuqar1/kino-sayt'
     },
     {
-        id: 8,
+        id: 9,
         title: 'Coins Backend Frontend',
         description: 'My project combines Mysql (Clever Cloud) and Firebase for storing photos. The backend is implemented using Node.js Express (Vercel), while the frontend is based on React. useState, useContext, and useSearchParams are used for handling API requests.',
         liveLink: 'https://main--coins-express-mysql-admin-panel.netlify.app/',

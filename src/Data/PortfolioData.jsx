@@ -76,6 +76,13 @@ const initialState = [
         liveLink: 'https://main--coins-express-mysql-admin-panel.netlify.app/',
         gitLink: 'https://github.com/mvuqar1/coins-express-mysql-adminPanel'
     },
+    {
+        id: 10,
+        title: 'Similiar Jowi',
+        description: '"Similar Jowi is a web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to search for and compare similar products. The interface design is based on Tailwind CSS. The application is deployed on the Render.com platform.',
+        liveLink: 'https://mvuqar1-similar-jowi.netlify.app/',
+        gitLink: 'https://github.com/mvuqar1/similiar-jowi-MERN-STACK'
+    },
 
 ]
 initialState.reverse();

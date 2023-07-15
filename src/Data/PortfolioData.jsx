@@ -79,9 +79,17 @@ const initialState = [
     {
         id: 10,
         title: 'Similiar Jowi',
-        description: '"Similar Jowi is a web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to search for and compare similar products. The interface design is based on Tailwind CSS. The application is deployed on the Render.com platform.',
+        description: 'ЭSimilar Jowi" is a web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to search for and compare similar products. The interface design is based on Tailwind CSS. The application is deployed on the Render.com platform.',
         liveLink: 'https://mvuqar1-similar-jowi.netlify.app/',
         gitLink: 'https://github.com/mvuqar1/similiar-jowi-MERN-STACK'
+    },
+    {
+        id: 11,
+        title: 'Youtube Clone',
+        description: '"Youtube Clone" is my own clone of the YouTube application. It utilizes React, Redux, Tailwind CSS, and the YouTube API v3. The application allows users to search for and watch videos. You can continue the development and customize the design and styles to give the project a unique look and feel.',
+        liveLink: 'https://youtube-clone-mvuqar1.netlify.app/',
+        gitLink: 'https://github.com/mvuqar1/clone-youtube'
+        
     },
 
 ]

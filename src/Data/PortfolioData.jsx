@@ -79,7 +79,7 @@ const initialState = [
     {
         id: 10,
         title: 'Similiar Jowi',
-        description: 'ЭSimilar Jowi" is a web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to search for and compare similar products. The interface design is based on Tailwind CSS. The application is deployed on the Render.com platform.',
+        description: '"Similar Jowi" is a web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to search for and compare similar products. The interface design is based on Tailwind CSS. The application is deployed on the Render.com platform.',
         liveLink: 'https://mvuqar1-similar-jowi.netlify.app/',
         gitLink: 'https://github.com/mvuqar1/similiar-jowi-MERN-STACK'
     },
@@ -89,6 +89,14 @@ const initialState = [
         description: '"Youtube Clone" is my own clone of the YouTube application. It utilizes React, Redux, Tailwind CSS, and the YouTube API v3. The application allows users to search for and watch videos. You can continue the development and customize the design and styles to give the project a unique look and feel.',
         liveLink: 'https://youtube-clone-mvuqar1.netlify.app/',
         gitLink: 'https://github.com/mvuqar1/clone-youtube'
+        
+    },
+    {
+        id: 12,
+        title: 'Booking Panel',
+        description: "I've employed HTML, CSS, and JavaScript to craft a user-friendly service booking system. HTML and CSS form the interface, while JavaScript adds dynamic functionalities. Local storage retains chosen options for a seamless booking experience.",
+        liveLink: 'https://booking-panel-mvuqar1.netlify.app/',
+        gitLink: 'https://github.com/mvuqar1/booking-panel/tree/main'
         
     },
 

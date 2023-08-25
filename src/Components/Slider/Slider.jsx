@@ -30,7 +30,7 @@ export default function Slider() {
       } else {
         setSlide(prev => prev - 100);
       }
-    }, 3000); // Интервал в миллисекундах (здесь установлено 3 секунды)
+    }, 3000); 
 
     return () => clearInterval(interval);
   }, [slide, len]);

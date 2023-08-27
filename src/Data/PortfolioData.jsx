@@ -99,6 +99,14 @@ const initialState = [
         gitLink: 'https://github.com/mvuqar1/booking-panel/tree/main'
         
     },
+    {
+        id: 13,
+        title: 'Commerce client-server',
+        description: "I used React, Redux, Ant Design, Node.js, Express.js, and MongoDB for the project. Booking functionality was established with local storage, and the backend was deployed on Render Dashboard. Security measures included password hashing using bcrypt and user authentication with JSON Web Tokens (JWT).",
+        liveLink: 'https://commerce-sayt-server-client.netlify.app/',
+        gitLink: 'https://github.com/mvuqar1/commerce-sayt-server-client'
+        
+    },
 
 ]
 initialState.reverse();

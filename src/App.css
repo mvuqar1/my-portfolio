@@ -1,18 +1,12 @@
 * {
     box-sizing: border-box;
-    /* устанавливает модель размеров элемента */
     line-height: 1;
-    /* устанавливает высоту строки */
     background-color: transparent;
-    /* устанавливает прозрачный фон */
     text-decoration: none;
-    /* убирает подчеркивание ссылок */
     list-style: none;
-    /* убирает маркеры списка */
     margin: 0;
     padding: 0;
     border: 0;
-    /* font-size: 100%; */
     font: inherit;
     vertical-align: baseline;
 }
@@ -24,7 +18,6 @@ html {
 .container{
     width: 90%;
     margin:auto;
-    /* background-color: aqua; */
 }
 @media screen and (max-width: 638px) {
     .container{

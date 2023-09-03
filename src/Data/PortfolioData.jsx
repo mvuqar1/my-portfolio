@@ -107,6 +107,14 @@ const initialState = [
         gitLink: 'https://github.com/mvuqar1/commerce-sayt-server-client'
         
     },
+    {
+        id: 14,
+        title: 'Netfilms using Next.Js',
+        description: '"Netfilms" is a dynamic web application built using Next.js and React. It allows users to browse information about movies and genres, as well as search for movies.',
+        liveLink: 'https://netfilms-with-next-js.vercel.app/',
+        gitLink: 'https://github.com/mvuqar1/netfilms-with-nextJs'
+        
+    },
 
 ]
 initialState.reverse();
